@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./dist/style.css"/>
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+
+  </style>
+</head>
+<body class="bg-mainBG font-outfit">
+<main class="flex justify-center items-center pt-5">
+  <div class="card">
+    <div class="relative">
+      <div class="img bg-cyan flex justify-center absolute items-center z-10 bg-opacity-60">
+     <img src="./images/icon-view.svg" class="w-10 h-10"/>
+    </div>
+    <div class="relative cursor-pointer z-40 hover:-z-0 transition-all delay-200 duration-300 ease-in">
+    <img src="./images/image-equilibrium.jpg" class="img relative"/>
+    </div>
+    </div>
+    <h1 class="text-white text-lg hover:text-cyan cursor-pointer">Equilibrium #3429</h1>
+    <p class="text-softb text-base">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="divide-y divide-gray-700 flex gap-5 flex-col text-sm">
+    <div class="flex gap-x-20">
+      <div class="flex gap-2">
+      <img src="./images/icon-ethereum.svg"/>
+      <span class="text-cyan">0.041 ETH</span>
+      </div>
+      <div class="flex gap-2">
+      <img src="./images/icon-clock.svg"/>
+      <span class="text-softb">3 days left</span>
+      </div>
+    </div>
+    <div class="inline-flex pt-3 gap-3">
+      <img src="./images/image-avatar.png" class="rounded-full w-10 border"/>
+      <span before="Creation of "  class="pt-2 text-white before:content-[attr(before)] before:text-softb hover:text-cyan cursor-pointer">
+        Jules Wyvern</span>
+    </div>
+    </div>
+  </div>
+</main>
+  <div class="attribution py-3">
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" before="Challenge by " class="text-cyan before:content-[attr(before)] before:text-softb">Frontend Mentor</a>. 
+    <a href="https://github.com/debadutta98/" before="Coded by " class="text-cyan before:content-[attr(before)] before:text-softb">Debadutta Panda</a>.
+  </div>
+</body>
+</html>
